@@ -68,7 +68,7 @@ def main():
 </div>"""
     st.markdown(subheader_template,unsafe_allow_html=True)
     activity=["Text Analysis","Translation", "Sentiment Analysis","About"]
-    st.sidebar.image('MyStreamlitProject/nlp.jpg',use_container_width=True
+    st.sidebar.image('nlp.jpg',use_container_width=True
                      )
     choice = st.sidebar.selectbox("Menu",activity)
 
